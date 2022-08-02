@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$lobrio-theme-colors: (
+    "fav1" : purple,
+    "fav2" : brown
+);
+
+$theme-colors: map-merge($lobrio-theme-colors , $theme-colors);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
